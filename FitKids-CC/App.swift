@@ -28,24 +28,21 @@ struct FitKids_CCApp: App {
         WindowGroup {
             if isLoggedIn {
                 TabView {
-                    NavigationView {
-                        ClassItemPDFListView(classItem: k8[1])
-                            .navigationBarHidden(true)
-                    }
+                    ClassView()
                     .tabItem {
                         Label("Class Plans", systemImage: "books.vertical")
                     }
 
-                    GetStartedTab()
+                    ResourcesView()
                     .tabItem {
                         Label("Resources", systemImage: "figure.walk")
                     }
                 }
                 .accentColor(.white)
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(.light)
             } else {
                 LoginView()
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(.light)
             }
         }
         
