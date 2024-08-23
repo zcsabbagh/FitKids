@@ -14,16 +14,19 @@ struct ClassView: View {
     @AppStorage("isLoggedIn") private var isLoggedIn = true
 
     var body: some View {
-        ScrollView {
-            LogoutButton(isLoggedIn: $isLoggedIn)
-            LazyVGrid(columns: gridLayout, spacing: 15) {
-                ForEach(0..<classTypes.count, id: \.self) { i in
-                    PerClassView(className: classes[i], classType: classTypes[i], classNum: i, baseColor: Color.orange)
+        NavigationView {
+            ScrollView {
+                LogoutButton(isLoggedIn: $isLoggedIn)
+                LazyVGrid(columns: gridLayout, spacing: 15) {
+                    ForEach(0..<classTypes.count, id: \.self) { i in
+                        PerClassView(className: classes[i], classType: classTypes[i], classNum: i + 1, baseColor: Color.orange)
+                    }
                 }
+                .padding(.horizontal)
+                .padding(.vertical, 10)
             }
-            .padding(.horizontal)
-            .padding(.vertical, 10)
         }
+
     }
 
     let classTypes = [
