@@ -16,6 +16,7 @@ struct LoginView: View {
     @State private var username = ""
     @State private var password = ""
     @State private var showError = false
+    @State private var isLoggingIn = false
     
     var body: some View {
         VStack {
@@ -33,6 +34,7 @@ struct LoginView: View {
             
             Button(action: {
                 print("Login button tapped")
+                isLoggingIn = true
                 logIn(username: username, password: password)
             }) {
                 Text("Log In")
@@ -40,6 +42,12 @@ struct LoginView: View {
                     .padding()
                     .background(Color.blue)
                     .cornerRadius(8)
+            }
+            .disabled(isLoggingIn)
+            
+            if isLoggingIn {
+                ProgressView()
+                    .padding(.top)
             }
             
             if showError {
@@ -71,6 +79,10 @@ struct LoginView: View {
         request.httpBody = parameters.data(using: .utf8)
         
         URLSession.shared.dataTask(with: request) { data, response, error in
+            DispatchQueue.main.async {
+                self.isLoggingIn = false
+            }
+            
             if let error = error {
                 print("Error: \(error.localizedDescription)")
                 DispatchQueue.main.async {

@@ -432,8 +432,9 @@
 				2F5712AA2BB0EEB100082993 /* 1-K8 Curriculum */,
 				2FE1E2C62BB0F1690035B229 /* 4-Classroom Fitness Games  */,
 			);
-			path = Curriculum;
-			sourceTree = "<group>";
+			name = Curriculum;
+			path = "FitKids-CC/PDFs/Curriculum";
+			sourceTree = SOURCE_ROOT;
 		};
 		2F5712392BB0EE9800082993 /* Fitness Movements */ = {
 			isa = PBXGroup;

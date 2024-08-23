@@ -11,15 +11,18 @@ struct ResourcesView: View {
     @AppStorage("isLoggedIn") private var isLoggedIn = true
 
     var body: some View {
-        ScrollView {
-            LogoutButton(isLoggedIn: $isLoggedIn)
-            LazyVGrid(columns: gridLayout, spacing: 15) {
-                ForEach(0..<resources.count, id: \.self) { i in
-                    PerResourceView(resource: resources[i], baseColor: Color.blue)
+        NavigationView {
+            ScrollView {
+                LogoutButton(isLoggedIn: $isLoggedIn)
+                LazyVGrid(columns: gridLayout, spacing: 15) {
+                    ForEach(0..<resources.count, id: \.self) { i in
+                        PerResourceView(resource: resources[i], baseColor: Color.blue)
+                    }
                 }
+                .padding(.horizontal)
+                .padding(.vertical, 10)
             }
-            .padding(.horizontal)
-            .padding(.vertical, 10)
+            .navigationTitle("Resources")
         }
     }
 
@@ -46,9 +49,10 @@ struct ResourcesView: View {
 struct PerResourceView: View {
     let resource: String
     let baseColor: Color
+    @State private var isActive = false
 
     var body: some View {
-        NavigationLink(destination: SpecificPDFView(pdfFilename: resource ?? "")) {
+        NavigationLink(destination: SpecificPDFView(pdfFilename: resource), isActive: $isActive) {
             VStack(spacing: 0) {
                 Text(resource.replacingOccurrences(of: ".pdf", with: ""))
                     .font(.headline)
@@ -62,8 +66,9 @@ struct PerResourceView: View {
             .cornerRadius(10)
             .shadow(color: .gray, radius: 5, x: 0, y: 2)
         }
-        
         .onTapGesture {
+            print("Tapped on \(resource)")
+            isActive = true
             let filenameWithoutExtension = resource.replacingOccurrences(of: ".pdf", with: "")
             AmplitudeManager.shared.track("Clicked Class Plan", properties: ["filename": filenameWithoutExtension])
         }
