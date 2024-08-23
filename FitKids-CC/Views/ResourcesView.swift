@@ -22,7 +22,6 @@ struct ResourcesView: View {
                 .padding(.horizontal)
                 .padding(.vertical, 10)
             }
-            .navigationTitle("Resources")
         }
     }
 
@@ -49,10 +48,9 @@ struct ResourcesView: View {
 struct PerResourceView: View {
     let resource: String
     let baseColor: Color
-    @State private var isActive = false
 
     var body: some View {
-        NavigationLink(destination: SpecificPDFView(pdfFilename: resource), isActive: $isActive) {
+        NavigationLink(destination: SpecificPDFView(pdfFilename: resource)) {
             VStack(spacing: 0) {
                 Text(resource.replacingOccurrences(of: ".pdf", with: ""))
                     .font(.headline)
@@ -68,7 +66,6 @@ struct PerResourceView: View {
         }
         .onTapGesture {
             print("Tapped on \(resource)")
-            isActive = true
             let filenameWithoutExtension = resource.replacingOccurrences(of: ".pdf", with: "")
             AmplitudeManager.shared.track("Clicked Class Plan", properties: ["filename": filenameWithoutExtension])
         }
