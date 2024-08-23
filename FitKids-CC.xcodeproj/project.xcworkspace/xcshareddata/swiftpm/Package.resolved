@@ -1,5 +1,5 @@
 {
-  "originHash" : "cf5415d3367caf8877106946cf64a20d7e408226300ec1c1ff1ec87fd992a261",
+  "originHash" : "c0c008f87358a569cf68f7705ec3e1d15631170d7888d439c869eaca04b9f4be",
   "pins" : [
     {
       "identity" : "amplitude-swift",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "e2ca17ac735bcbc48b13062484541702ef45153d",
         "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "spconfetti",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanvorobei/SPConfetti",
+      "state" : {
+        "revision" : "0896bbf9ec20eaf125598d0f36ee5f1049117e18",
+        "version" : "1.4.2"
       }
     }
   ],
