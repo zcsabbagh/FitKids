@@ -20,88 +20,77 @@ struct LoginView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            HStack {
-                Spacer()
-                Image("fitkids")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(height: 100)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.top, 70)
-                    .padding(.horizontal, 40)
-                Spacer()
-            }
-
-
             Spacer()
-            VStack(alignment: .leading, spacing: 0) {
-                Text("Login")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding()
-                    .padding(.bottom, 50)
-                
-                Text("Email address")
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 20)
-                    .padding(.bottom, -10)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+            Image("fitkids")
+                .resizable()
+                .scaledToFit()
+                .frame(height: 120)
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.top, 40)
+                .padding(.horizontal, 40)
+            
 
-                TextField("", text: self.$username)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding()
-                
-                Text("Password")
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 20)
-                    .padding(.bottom, -10)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-
-                SecureField("", text: self.$password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding()
-                
-                HStack {
-                    Button(action: {
-                        print("Login button tapped")
-                        isLoggingIn = true
-                        logIn(username: username, password: password)
-                    }) {
-                        Text("Log In")
-                            .foregroundColor(.gray)
-                            .padding(10)
-                            .background(Color.white)
-                            .cornerRadius(8)
-                    }
-                    .disabled(isLoggingIn)
-                    Spacer()
-                }
-                .padding(.horizontal, 20)
-                
-                if isLoggingIn {
-                    ProgressView()
-                        .padding(.top)
-                        .padding(.horizontal, 20)
-    
-                }
+            Text("COACH'S CORNER")
+                .font(.custom("BebasNeue-Regular", size: 50))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding()
+                .minimumScaleFactor(0.95)
+                .lineLimit(1)
+            
+            TextField("Email address", text: self.$username)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .foregroundColor(.black)
+                .accentColor(.black)
+                .padding(.vertical, 5)
+                .padding(.horizontal, 40)
                
+
+            SecureField("Password", text: self.$password)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .foregroundColor(.black)
+                .accentColor(.black)
+                .padding(.vertical, 5)
+                .padding(.horizontal, 40)
+                .padding(.bottom, 20)
                 
-                if showError {
-                    Text("Error signing in, please try again")
-                        .foregroundColor(.red)
-                        .padding(.top)
-                        .padding(.horizontal, 20)
-                }
+
+            Button(action: {
+                print("Login button tapped")
+                isLoggingIn = true
+                logIn(username: username, password: password)
+            }) {
+                Text("Log In")
+                    .foregroundColor(.white)
+                    .padding(.vertical, 10)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.gray)
+                    .cornerRadius(8)
             }
-            .padding(40)
+            .disabled(isLoggingIn)
+            .padding(.horizontal, 60)
+            
+            if isLoggingIn {
+                ProgressView()
+                    .padding(.top)
+                    .padding(.horizontal, 20)
+
+            }
+            
+            
+            if showError {
+                Text("Error signing in, please try again")
+                    .foregroundColor(.red)
+                    .padding(.top)
+                    .padding(.horizontal, 20)
+            }
+            Spacer()
             Spacer()
             Spacer()
         }
         .edgesIgnoringSafeArea(.all)
         .background(Color.blue)
-//        .background(Color(hex: "378C52"))
         .onAppear {
             print("LoginView appeared")
         }

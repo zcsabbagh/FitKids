@@ -128,6 +128,7 @@
 		2F33E84D2C819218009BC8D0 /* K-8 Class 40.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E81B2C819218009BC8D0 /* K-8 Class 40.pdf */; };
 		2F5712302BB0E77100082993 /* Equipment List.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F57122F2BB0E77100082993 /* Equipment List.pdf */; };
 		2F5712322BB0E78200082993 /* Fitness Testing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5712312BB0E78200082993 /* Fitness Testing.pdf */; };
+		2F5F5C772C8210A600A12DAF /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5F5C762C8210A600A12DAF /* BebasNeue-Regular.ttf */; };
 		2F86D90B2C6FBDAE002A4A98 /* Mindful Movement Calendar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9072C6FBDAE002A4A98 /* Mindful Movement Calendar.pdf */; };
 		2F86D90C2C6FBDAE002A4A98 /* February Fitness.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9052C6FBDAE002A4A98 /* February Fitness.pdf */; };
 		2F86D90D2C6FBDAE002A4A98 /* Spell Your Name Fitness Activity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9012C6FBDAE002A4A98 /* Spell Your Name Fitness Activity.pdf */; };
@@ -276,6 +277,7 @@
 		2F57120C2BB0E44800082993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2F57122F2BB0E77100082993 /* Equipment List.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Equipment List.pdf"; sourceTree = "<group>"; };
 		2F5712312BB0E78200082993 /* Fitness Testing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fitness Testing.pdf"; sourceTree = "<group>"; };
+		2F5F5C762C8210A600A12DAF /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 		2F86D8FE2C6FBDAE002A4A98 /* Plank Challenge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Plank Challenge.pdf"; sourceTree = "<group>"; };
 		2F86D8FF2C6FBDAE002A4A98 /* Before Breakfast Cardio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Before Breakfast Cardio.pdf"; sourceTree = "<group>"; };
 		2F86D9002C6FBDAE002A4A98 /* Build Your Own Snowman Workout.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Build Your Own Snowman Workout.pdf"; sourceTree = "<group>"; };
@@ -599,6 +601,7 @@
 		2FC6BE292B92E58D00666A83 /* FitKids-CC */ = {
 			isa = PBXGroup;
 			children = (
+				2F5F5C762C8210A600A12DAF /* BebasNeue-Regular.ttf */,
 				2F2E96982C7A4964009B0FAF /* Login */,
 				2F07D1FD2C78C99C00871D7F /* Views */,
 				2F57120F2BB0E6DE00082993 /* PDFs */,
@@ -743,6 +746,7 @@
 				2F33E8422C819218009BC8D0 /* K-8 Class 39.pdf in Resources */,
 				2F33E8412C819218009BC8D0 /* K-8 Class 8.pdf in Resources */,
 				2F219B7E2C6FB253001DBF07 /* K-8-Class-22.pdf in Resources */,
+				2F5F5C772C8210A600A12DAF /* BebasNeue-Regular.ttf in Resources */,
 				2F33E8352C819218009BC8D0 /* K-8 Class 30.pdf in Resources */,
 				2F219B7F2C6FB253001DBF07 /* K-8-Class-24.pdf in Resources */,
 				2F219B802C6FB253001DBF07 /* K-8-Class-15.pdf in Resources */,
