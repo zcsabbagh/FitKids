@@ -22,7 +22,7 @@ struct LoginView: View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
                 Spacer()
-                Image("Login")
+                Image("fitkids")
                     .resizable()
                     .scaledToFit()
                     .frame(height: 100)
@@ -38,12 +38,13 @@ struct LoginView: View {
                 Text("Login")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .foregroundColor(Color.blue)
+                    .foregroundColor(Color.white)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
                     .padding(.bottom, 50)
                 
                 Text("Email address")
+                    .foregroundColor(.white)
                     .padding(.horizontal, 20)
                     .padding(.bottom, -10)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -53,6 +54,7 @@ struct LoginView: View {
                     .padding()
                 
                 Text("Password")
+                    .foregroundColor(.white)
                     .padding(.horizontal, 20)
                     .padding(.bottom, -10)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -68,9 +70,9 @@ struct LoginView: View {
                         logIn(username: username, password: password)
                     }) {
                         Text("Log In")
-                            .foregroundColor(.white)
+                            .foregroundColor(.gray)
                             .padding(10)
-                            .background(Color.blue)
+                            .background(Color.white)
                             .cornerRadius(8)
                     }
                     .disabled(isLoggingIn)
@@ -97,7 +99,8 @@ struct LoginView: View {
             Spacer()
             Spacer()
         }
-        .edgesIgnoringSafeArea(.top)
+        .edgesIgnoringSafeArea(.all)
+        .background(Color.blue)
 //        .background(Color(hex: "378C52"))
         .onAppear {
             print("LoginView appeared")
