@@ -43,7 +43,7 @@ struct FitKids_CCApp: App {
             } else {
                 LoginView()
                     .preferredColorScheme(.light)
-                    .background(Color.blue)
+                    .background(Color.blue.opacity(0.8))
                     .edgesIgnoringSafeArea(.all)
             }
         }

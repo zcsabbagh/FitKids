@@ -24,7 +24,7 @@ struct LoginView: View {
             Image("fitkids")
                 .resizable()
                 .scaledToFit()
-                .frame(height: 120)
+                .frame(height: 140)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding(.top, 40)
                 .padding(.horizontal, 40)
@@ -90,7 +90,6 @@ struct LoginView: View {
             Spacer()
         }
         .edgesIgnoringSafeArea(.all)
-        .background(Color.blue)
         .onAppear {
             print("LoginView appeared")
         }
