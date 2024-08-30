@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F07D2002C78CA6600871D7F /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07D1FF2C78CA5C00871D7F /* PDFView.swift */; };
+		2F07D2042C78CB6200871D7F /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07D2032C78CB5300871D7F /* ClassView.swift */; };
+		2F07D2062C78CEAD00871D7F /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07D2052C78CEA800871D7F /* ResourcesView.swift */; };
+		2F07D2132C78CFBA00871D7F /* Understanding Traumas Impact on Behavior.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D2122C78CFBA00871D7F /* Understanding Traumas Impact on Behavior.pdf */; };
+		2F07D2142C78CFBA00871D7F /* Behavior Guidance Intervention.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D2082C78CFBA00871D7F /* Behavior Guidance Intervention.pdf */; };
+		2F07D2152C78CFBA00871D7F /* Age Appropriate Coaching.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D2072C78CFBA00871D7F /* Age Appropriate Coaching.pdf */; };
+		2F07D2162C78CFBA00871D7F /* How Kids Learn Best.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D20C2C78CFBA00871D7F /* How Kids Learn Best.pdf */; };
+		2F07D2172C78CFBA00871D7F /* Tricks of the Trade.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D2112C78CFBA00871D7F /* Tricks of the Trade.pdf */; };
+		2F07D2182C78CFBA00871D7F /* Game Plan For Girls in Sports.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D20A2C78CFBA00871D7F /* Game Plan For Girls in Sports.pdf */; };
+		2F07D2192C78CFBA00871D7F /* Role of a Coach.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D20E2C78CFBA00871D7F /* Role of a Coach.pdf */; };
+		2F07D21A2C78CFBA00871D7F /* FKF CDC Body Chart.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D2092C78CFBA00871D7F /* FKF CDC Body Chart.pdf */; };
+		2F07D21B2C78CFBA00871D7F /* Positive Behavior Guidance Prevention.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D20D2C78CFBA00871D7F /* Positive Behavior Guidance Prevention.pdf */; };
+		2F07D21C2C78CFBA00871D7F /* Safety Tips.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D20F2C78CFBA00871D7F /* Safety Tips.pdf */; };
+		2F07D21D2C78CFBA00871D7F /* Healing Centered Coaching.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D20B2C78CFBA00871D7F /* Healing Centered Coaching.pdf */; };
+		2F07D21E2C78CFBA00871D7F /* Tips for the First Time Coach.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F07D2102C78CFBA00871D7F /* Tips for the First Time Coach.pdf */; };
+		2F07D2232C78D86A00871D7F /* SPConfetti in Frameworks */ = {isa = PBXBuildFile; productRef = 2F07D2222C78D86A00871D7F /* SPConfetti */; };
+		2F07D2252C78D9A800871D7F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07D2242C78D9A500871D7F /* TitleView.swift */; };
+		2F219B772C6FB253001DBF07 /* K-8-Class-4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B472C6FB253001DBF07 /* K-8-Class-4.pdf */; };
+		2F219B782C6FB253001DBF07 /* K-8-Class-12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B4F2C6FB253001DBF07 /* K-8-Class-12.pdf */; };
+		2F219B792C6FB253001DBF07 /* K-8-Class-32.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B632C6FB253001DBF07 /* K-8-Class-32.pdf */; };
+		2F219B7A2C6FB253001DBF07 /* K-8-Class-48.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B732C6FB253001DBF07 /* K-8-Class-48.pdf */; };
+		2F219B7B2C6FB253001DBF07 /* K-8-Class-17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B542C6FB253001DBF07 /* K-8-Class-17.pdf */; };
+		2F219B7C2C6FB253001DBF07 /* K-8-Class-25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B5C2C6FB253001DBF07 /* K-8-Class-25.pdf */; };
+		2F219B7D2C6FB253001DBF07 /* K-8-Class-11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B4E2C6FB253001DBF07 /* K-8-Class-11.pdf */; };
+		2F219B7E2C6FB253001DBF07 /* K-8-Class-22.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B592C6FB253001DBF07 /* K-8-Class-22.pdf */; };
+		2F219B7F2C6FB253001DBF07 /* K-8-Class-24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B5B2C6FB253001DBF07 /* K-8-Class-24.pdf */; };
+		2F219B802C6FB253001DBF07 /* K-8-Class-15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B522C6FB253001DBF07 /* K-8-Class-15.pdf */; };
+		2F219B812C6FB253001DBF07 /* K-8-Class-26.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B5D2C6FB253001DBF07 /* K-8-Class-26.pdf */; };
+		2F219B822C6FB253001DBF07 /* K-8-Class-37.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B682C6FB253001DBF07 /* K-8-Class-37.pdf */; };
+		2F219B832C6FB253001DBF07 /* K-8-Class-28.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B5F2C6FB253001DBF07 /* K-8-Class-28.pdf */; };
+		2F219B842C6FB253001DBF07 /* K-8-Class-10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B4D2C6FB253001DBF07 /* K-8-Class-10.pdf */; };
+		2F219B852C6FB253001DBF07 /* K-8-Class-2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B452C6FB253001DBF07 /* K-8-Class-2.pdf */; };
+		2F219B862C6FB253001DBF07 /* K-8-Class-45.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B702C6FB253001DBF07 /* K-8-Class-45.pdf */; };
+		2F219B872C6FB253001DBF07 /* K-8-Class-34.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B652C6FB253001DBF07 /* K-8-Class-34.pdf */; };
+		2F219B882C6FB253001DBF07 /* K-8-Class-35.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B662C6FB253001DBF07 /* K-8-Class-35.pdf */; };
+		2F219B892C6FB253001DBF07 /* K-8-Class-9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B4C2C6FB253001DBF07 /* K-8-Class-9.pdf */; };
+		2F219B8A2C6FB253001DBF07 /* K-8-Class-40.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B6B2C6FB253001DBF07 /* K-8-Class-40.pdf */; };
+		2F219B8B2C6FB253001DBF07 /* K-8-Class-41.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B6C2C6FB253001DBF07 /* K-8-Class-41.pdf */; };
+		2F219B8C2C6FB253001DBF07 /* K-8-Class-5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B482C6FB253001DBF07 /* K-8-Class-5.pdf */; };
+		2F219B8D2C6FB253001DBF07 /* K-8-Class-29.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B602C6FB253001DBF07 /* K-8-Class-29.pdf */; };
+		2F219B8E2C6FB253001DBF07 /* K-8-Class-3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B462C6FB253001DBF07 /* K-8-Class-3.pdf */; };
+		2F219B8F2C6FB253001DBF07 /* K-8-Class-13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B502C6FB253001DBF07 /* K-8-Class-13.pdf */; };
+		2F219B902C6FB253001DBF07 /* K-8-Class-39.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B6A2C6FB253001DBF07 /* K-8-Class-39.pdf */; };
+		2F219B912C6FB253001DBF07 /* K-8-Class-19.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B562C6FB253001DBF07 /* K-8-Class-19.pdf */; };
+		2F219B922C6FB253001DBF07 /* K-8-Class-16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B532C6FB253001DBF07 /* K-8-Class-16.pdf */; };
+		2F219B932C6FB253001DBF07 /* K-8-Class-38.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B692C6FB253001DBF07 /* K-8-Class-38.pdf */; };
+		2F219B942C6FB253001DBF07 /* K-8-Class-20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B572C6FB253001DBF07 /* K-8-Class-20.pdf */; };
+		2F219B952C6FB253001DBF07 /* K-8-Class-30.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B612C6FB253001DBF07 /* K-8-Class-30.pdf */; };
+		2F219B962C6FB253001DBF07 /* K-8-Class-21.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B582C6FB253001DBF07 /* K-8-Class-21.pdf */; };
+		2F219B972C6FB253001DBF07 /* K-8-Class-33.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B642C6FB253001DBF07 /* K-8-Class-33.pdf */; };
+		2F219B982C6FB253001DBF07 /* K-8-Class-49.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B742C6FB253001DBF07 /* K-8-Class-49.pdf */; };
+		2F219B992C6FB253001DBF07 /* K-8-Class-14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B512C6FB253001DBF07 /* K-8-Class-14.pdf */; };
+		2F219B9A2C6FB253001DBF07 /* K-8-Class-31.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B622C6FB253001DBF07 /* K-8-Class-31.pdf */; };
+		2F219B9B2C6FB253001DBF07 /* K-8-Class-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B442C6FB253001DBF07 /* K-8-Class-1.pdf */; };
+		2F219B9C2C6FB253001DBF07 /* K-8-Class-6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B492C6FB253001DBF07 /* K-8-Class-6.pdf */; };
+		2F219B9D2C6FB253001DBF07 /* K-8-Class-42.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B6D2C6FB253001DBF07 /* K-8-Class-42.pdf */; };
+		2F219B9E2C6FB253001DBF07 /* K-8-Class-44.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B6F2C6FB253001DBF07 /* K-8-Class-44.pdf */; };
+		2F219B9F2C6FB253001DBF07 /* K-8-Class-8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B4B2C6FB253001DBF07 /* K-8-Class-8.pdf */; };
+		2F219BA02C6FB253001DBF07 /* K-8-Class-23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B5A2C6FB253001DBF07 /* K-8-Class-23.pdf */; };
+		2F219BA12C6FB253001DBF07 /* K-8-Class-36.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B672C6FB253001DBF07 /* K-8-Class-36.pdf */; };
+		2F219BA22C6FB253001DBF07 /* K-8-Class-7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B4A2C6FB253001DBF07 /* K-8-Class-7.pdf */; };
+		2F219BA32C6FB253001DBF07 /* K-8-Class-27.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B5E2C6FB253001DBF07 /* K-8-Class-27.pdf */; };
+		2F219BA42C6FB253001DBF07 /* K-8-Class-43.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B6E2C6FB253001DBF07 /* K-8-Class-43.pdf */; };
+		2F219BA52C6FB253001DBF07 /* K-8-Class-46.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B712C6FB253001DBF07 /* K-8-Class-46.pdf */; };
+		2F219BA62C6FB253001DBF07 /* K-8-Class-50.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B752C6FB253001DBF07 /* K-8-Class-50.pdf */; };
+		2F219BA72C6FB253001DBF07 /* K-8-Class-18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B552C6FB253001DBF07 /* K-8-Class-18.pdf */; };
+		2F219BA82C6FB253001DBF07 /* K-8-Class-47.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F219B722C6FB253001DBF07 /* K-8-Class-47.pdf */; };
+		2F2E96992C7A4A12009B0FAF /* intro.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E96952C7A418C009B0FAF /* intro.mov */; };
+		2F2E969D2C7AD0D4009B0FAF /* Class Guide and Tips.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F2E969C2C7AD0D4009B0FAF /* Class Guide and Tips.pdf */; };
+		2F33E81C2C819218009BC8D0 /* K-8 Class 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7EA2C819215009BC8D0 /* K-8 Class 1.pdf */; };
+		2F33E81D2C819218009BC8D0 /* K-8 Class 38.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7EB2C819215009BC8D0 /* K-8 Class 38.pdf */; };
+		2F33E81E2C819218009BC8D0 /* K-8 Class 12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7EC2C819215009BC8D0 /* K-8 Class 12.pdf */; };
+		2F33E81F2C819218009BC8D0 /* K-8 Class 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7ED2C819216009BC8D0 /* K-8 Class 7.pdf */; };
+		2F33E8202C819218009BC8D0 /* K-8 Class 34.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7EE2C819216009BC8D0 /* K-8 Class 34.pdf */; };
+		2F33E8212C819218009BC8D0 /* K-8 Class 45.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7EF2C819216009BC8D0 /* K-8 Class 45.pdf */; };
+		2F33E8222C819218009BC8D0 /* K-8 Class 23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F02C819216009BC8D0 /* K-8 Class 23.pdf */; };
+		2F33E8232C819218009BC8D0 /* K-8 Class 24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F12C819216009BC8D0 /* K-8 Class 24.pdf */; };
+		2F33E8242C819218009BC8D0 /* K-8 Class 15.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F22C819216009BC8D0 /* K-8 Class 15.pdf */; };
+		2F33E8252C819218009BC8D0 /* K-8 Class 50.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F32C819216009BC8D0 /* K-8 Class 50.pdf */; };
+		2F33E8262C819218009BC8D0 /* K-8 Class 26.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F42C819216009BC8D0 /* K-8 Class 26.pdf */; };
+		2F33E8272C819218009BC8D0 /* K-8 Class 4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F52C819216009BC8D0 /* K-8 Class 4.pdf */; };
+		2F33E8282C819218009BC8D0 /* K-8 Class 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F62C819216009BC8D0 /* K-8 Class 11.pdf */; };
+		2F33E8292C819218009BC8D0 /* K-8 Class 6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F72C819216009BC8D0 /* K-8 Class 6.pdf */; };
+		2F33E82A2C819218009BC8D0 /* K-8 Class 41.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F82C819216009BC8D0 /* K-8 Class 41.pdf */; };
+		2F33E82B2C819218009BC8D0 /* K-8 Class 28.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7F92C819216009BC8D0 /* K-8 Class 28.pdf */; };
+		2F33E82C2C819218009BC8D0 /* K-8 Class 16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7FA2C819216009BC8D0 /* K-8 Class 16.pdf */; };
+		2F33E82D2C819218009BC8D0 /* K-8 Class 37.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7FB2C819216009BC8D0 /* K-8 Class 37.pdf */; };
+		2F33E82E2C819218009BC8D0 /* K-8 Class 42.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7FC2C819216009BC8D0 /* K-8 Class 42.pdf */; };
+		2F33E82F2C819218009BC8D0 /* K-8 Class 19.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7FD2C819216009BC8D0 /* K-8 Class 19.pdf */; };
+		2F33E8302C819218009BC8D0 /* K-8 Class 5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7FE2C819216009BC8D0 /* K-8 Class 5.pdf */; };
+		2F33E8312C819218009BC8D0 /* K-8 Class 9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E7FF2C819216009BC8D0 /* K-8 Class 9.pdf */; };
+		2F33E8322C819218009BC8D0 /* K-8 Class 47.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8002C819216009BC8D0 /* K-8 Class 47.pdf */; };
+		2F33E8332C819218009BC8D0 /* K-8 Class 35.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8012C819216009BC8D0 /* K-8 Class 35.pdf */; };
+		2F33E8342C819218009BC8D0 /* K-8 Class 44.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8022C819216009BC8D0 /* K-8 Class 44.pdf */; };
+		2F33E8352C819218009BC8D0 /* K-8 Class 30.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8032C819216009BC8D0 /* K-8 Class 30.pdf */; };
+		2F33E8362C819218009BC8D0 /* K-8 Class 49.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8042C819216009BC8D0 /* K-8 Class 49.pdf */; };
+		2F33E8372C819218009BC8D0 /* K-8 Class 14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8052C819217009BC8D0 /* K-8 Class 14.pdf */; };
+		2F33E8382C819218009BC8D0 /* K-8 Class 21.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8062C819217009BC8D0 /* K-8 Class 21.pdf */; };
+		2F33E8392C819218009BC8D0 /* K-8 Class 36.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8072C819217009BC8D0 /* K-8 Class 36.pdf */; };
+		2F33E83A2C819218009BC8D0 /* K-8 Class 29.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8082C819217009BC8D0 /* K-8 Class 29.pdf */; };
+		2F33E83B2C819218009BC8D0 /* K-8 Class 46.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8092C819217009BC8D0 /* K-8 Class 46.pdf */; };
+		2F33E83C2C819218009BC8D0 /* K-8 Class 10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E80A2C819217009BC8D0 /* K-8 Class 10.pdf */; };
+		2F33E83D2C819218009BC8D0 /* K-8 Class 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E80B2C819217009BC8D0 /* K-8 Class 2.pdf */; };
+		2F33E83E2C819218009BC8D0 /* K-8 Class 18.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E80C2C819217009BC8D0 /* K-8 Class 18.pdf */; };
+		2F33E83F2C819218009BC8D0 /* K-8 Class 17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E80D2C819217009BC8D0 /* K-8 Class 17.pdf */; };
+		2F33E8402C819218009BC8D0 /* K-8 Class 20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E80E2C819217009BC8D0 /* K-8 Class 20.pdf */; };
+		2F33E8412C819218009BC8D0 /* K-8 Class 8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E80F2C819217009BC8D0 /* K-8 Class 8.pdf */; };
+		2F33E8422C819218009BC8D0 /* K-8 Class 39.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8102C819217009BC8D0 /* K-8 Class 39.pdf */; };
+		2F33E8432C819218009BC8D0 /* K-8 Class 31.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8112C819217009BC8D0 /* K-8 Class 31.pdf */; };
+		2F33E8442C819218009BC8D0 /* K-8 Class 25.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8122C819217009BC8D0 /* K-8 Class 25.pdf */; };
+		2F33E8452C819218009BC8D0 /* K-8 Class 22.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8132C819217009BC8D0 /* K-8 Class 22.pdf */; };
+		2F33E8462C819218009BC8D0 /* K-8 Class 27.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8142C819217009BC8D0 /* K-8 Class 27.pdf */; };
+		2F33E8472C819218009BC8D0 /* K-8 Class 48.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8152C819217009BC8D0 /* K-8 Class 48.pdf */; };
+		2F33E8482C819218009BC8D0 /* K-8 Class 33.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8162C819217009BC8D0 /* K-8 Class 33.pdf */; };
+		2F33E8492C819218009BC8D0 /* K-8 Class 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8172C819217009BC8D0 /* K-8 Class 3.pdf */; };
+		2F33E84A2C819218009BC8D0 /* K-8 Class 43.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8182C819217009BC8D0 /* K-8 Class 43.pdf */; };
+		2F33E84B2C819218009BC8D0 /* K-8 Class 13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E8192C819218009BC8D0 /* K-8 Class 13.pdf */; };
+		2F33E84C2C819218009BC8D0 /* K-8 Class 32.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E81A2C819218009BC8D0 /* K-8 Class 32.pdf */; };
+		2F33E84D2C819218009BC8D0 /* K-8 Class 40.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F33E81B2C819218009BC8D0 /* K-8 Class 40.pdf */; };
+		2F5712302BB0E77100082993 /* Equipment List.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F57122F2BB0E77100082993 /* Equipment List.pdf */; };
+		2F5712322BB0E78200082993 /* Fitness Testing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5712312BB0E78200082993 /* Fitness Testing.pdf */; };
+		2F86D90B2C6FBDAE002A4A98 /* Mindful Movement Calendar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9072C6FBDAE002A4A98 /* Mindful Movement Calendar.pdf */; };
+		2F86D90C2C6FBDAE002A4A98 /* February Fitness.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9052C6FBDAE002A4A98 /* February Fitness.pdf */; };
+		2F86D90D2C6FBDAE002A4A98 /* Spell Your Name Fitness Activity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9012C6FBDAE002A4A98 /* Spell Your Name Fitness Activity.pdf */; };
+		2F86D90E2C6FBDAE002A4A98 /* Plank Challenge.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D8FE2C6FBDAE002A4A98 /* Plank Challenge.pdf */; };
+		2F86D90F2C6FBDAE002A4A98 /* Word Search.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9042C6FBDAE002A4A98 /* Word Search.pdf */; };
+		2F86D9102C6FBDAE002A4A98 /* Roll into Fitness.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9022C6FBDAE002A4A98 /* Roll into Fitness.pdf */; };
+		2F86D9112C6FBDAE002A4A98 /* Fitness-Bingo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9062C6FBDAE002A4A98 /* Fitness-Bingo.pdf */; };
+		2F86D9122C6FBDAE002A4A98 /* A November Stuffed With Fitness.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9032C6FBDAE002A4A98 /* A November Stuffed With Fitness.pdf */; };
+		2F86D9132C6FBDAE002A4A98 /* Tic Tac Toe Fitness.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9092C6FBDAE002A4A98 /* Tic Tac Toe Fitness.pdf */; };
+		2F86D9142C6FBDAE002A4A98 /* Before Breakfast Cardio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D8FF2C6FBDAE002A4A98 /* Before Breakfast Cardio.pdf */; };
+		2F86D9152C6FBDAE002A4A98 /* 31 Day Squat Challenge.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9082C6FBDAE002A4A98 /* 31 Day Squat Challenge.pdf */; };
+		2F86D9162C6FBDAE002A4A98 /* Build Your Own Snowman Workout.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9002C6FBDAE002A4A98 /* Build Your Own Snowman Workout.pdf */; };
+		2F86D91C2C6FBDD6002A4A98 /* Monthly Mindfulness.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9192C6FBDD6002A4A98 /* Monthly Mindfulness.pdf */; };
+		2F86D91D2C6FBDD6002A4A98 /* Morning Movement.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9182C6FBDD6002A4A98 /* Morning Movement.pdf */; };
+		2F86D91E2C6FBDD6002A4A98 /* Brain Breaks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D9172C6FBDD6002A4A98 /* Brain Breaks.pdf */; };
+		2F86D91F2C6FBDD6002A4A98 /* Yoga Flows.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D91A2C6FBDD6002A4A98 /* Yoga Flows.pdf */; };
+		2F86D9222C70B087002A4A98 /* AmplitudeSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2F86D9212C70B087002A4A98 /* AmplitudeSwift */; };
+		2F86D9242C70B34A002A4A98 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86D9232C70B347002A4A98 /* AmplitudeManager.swift */; };
+		2FC6BE2B2B92E58D00666A83 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6BE2A2B92E58D00666A83 /* App.swift */; };
+		2FC6BE2F2B92E58E00666A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6BE2E2B92E58E00666A83 /* Assets.xcassets */; };
+		2FC6BE372B92E58E00666A83 /* FitKids_CC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6BE352B92E58E00666A83 /* FitKids_CC.xcdatamodeld */; };
+		2FC6BE4F2B92EEDD00666A83 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6BE4E2B92EEDD00666A83 /* Login.swift */; };
+		2FE1E2D72BB0F16A0035B229 /* Classroom Fitness Games.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE1E2C72BB0F1690035B229 /* Classroom Fitness Games.pdf */; };
+		2FE1E2D82BB0F16A0035B229 /* Leading Fit Kids Indoors.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE1E2C92BB0F1690035B229 /* Leading Fit Kids Indoors.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F07D1FF2C78CA5C00871D7F /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		2F07D2032C78CB5300871D7F /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		2F07D2052C78CEA800871D7F /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		2F07D2072C78CFBA00871D7F /* Age Appropriate Coaching.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Age Appropriate Coaching.pdf"; sourceTree = "<group>"; };
+		2F07D2082C78CFBA00871D7F /* Behavior Guidance Intervention.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Behavior Guidance Intervention.pdf"; sourceTree = "<group>"; };
+		2F07D2092C78CFBA00871D7F /* FKF CDC Body Chart.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FKF CDC Body Chart.pdf"; sourceTree = "<group>"; };
+		2F07D20A2C78CFBA00871D7F /* Game Plan For Girls in Sports.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Game Plan For Girls in Sports.pdf"; sourceTree = "<group>"; };
+		2F07D20B2C78CFBA00871D7F /* Healing Centered Coaching.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Healing Centered Coaching.pdf"; sourceTree = "<group>"; };
+		2F07D20C2C78CFBA00871D7F /* How Kids Learn Best.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How Kids Learn Best.pdf"; sourceTree = "<group>"; };
+		2F07D20D2C78CFBA00871D7F /* Positive Behavior Guidance Prevention.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Positive Behavior Guidance Prevention.pdf"; sourceTree = "<group>"; };
+		2F07D20E2C78CFBA00871D7F /* Role of a Coach.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Role of a Coach.pdf"; sourceTree = "<group>"; };
+		2F07D20F2C78CFBA00871D7F /* Safety Tips.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Safety Tips.pdf"; sourceTree = "<group>"; };
+		2F07D2102C78CFBA00871D7F /* Tips for the First Time Coach.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tips for the First Time Coach.pdf"; sourceTree = "<group>"; };
+		2F07D2112C78CFBA00871D7F /* Tricks of the Trade.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tricks of the Trade.pdf"; sourceTree = "<group>"; };
+		2F07D2122C78CFBA00871D7F /* Understanding Traumas Impact on Behavior.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Understanding Traumas Impact on Behavior.pdf"; sourceTree = "<group>"; };
+		2F07D2242C78D9A500871D7F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		2F219B442C6FB253001DBF07 /* K-8-Class-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-1.pdf"; sourceTree = "<group>"; };
+		2F219B452C6FB253001DBF07 /* K-8-Class-2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-2.pdf"; sourceTree = "<group>"; };
+		2F219B462C6FB253001DBF07 /* K-8-Class-3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-3.pdf"; sourceTree = "<group>"; };
+		2F219B472C6FB253001DBF07 /* K-8-Class-4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-4.pdf"; sourceTree = "<group>"; };
+		2F219B482C6FB253001DBF07 /* K-8-Class-5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-5.pdf"; sourceTree = "<group>"; };
+		2F219B492C6FB253001DBF07 /* K-8-Class-6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-6.pdf"; sourceTree = "<group>"; };
+		2F219B4A2C6FB253001DBF07 /* K-8-Class-7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-7.pdf"; sourceTree = "<group>"; };
+		2F219B4B2C6FB253001DBF07 /* K-8-Class-8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-8.pdf"; sourceTree = "<group>"; };
+		2F219B4C2C6FB253001DBF07 /* K-8-Class-9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-9.pdf"; sourceTree = "<group>"; };
+		2F219B4D2C6FB253001DBF07 /* K-8-Class-10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-10.pdf"; sourceTree = "<group>"; };
+		2F219B4E2C6FB253001DBF07 /* K-8-Class-11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-11.pdf"; sourceTree = "<group>"; };
+		2F219B4F2C6FB253001DBF07 /* K-8-Class-12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-12.pdf"; sourceTree = "<group>"; };
+		2F219B502C6FB253001DBF07 /* K-8-Class-13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-13.pdf"; sourceTree = "<group>"; };
+		2F219B512C6FB253001DBF07 /* K-8-Class-14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-14.pdf"; sourceTree = "<group>"; };
+		2F219B522C6FB253001DBF07 /* K-8-Class-15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-15.pdf"; sourceTree = "<group>"; };
+		2F219B532C6FB253001DBF07 /* K-8-Class-16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-16.pdf"; sourceTree = "<group>"; };
+		2F219B542C6FB253001DBF07 /* K-8-Class-17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-17.pdf"; sourceTree = "<group>"; };
+		2F219B552C6FB253001DBF07 /* K-8-Class-18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-18.pdf"; sourceTree = "<group>"; };
+		2F219B562C6FB253001DBF07 /* K-8-Class-19.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-19.pdf"; sourceTree = "<group>"; };
+		2F219B572C6FB253001DBF07 /* K-8-Class-20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-20.pdf"; sourceTree = "<group>"; };
+		2F219B582C6FB253001DBF07 /* K-8-Class-21.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-21.pdf"; sourceTree = "<group>"; };
+		2F219B592C6FB253001DBF07 /* K-8-Class-22.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-22.pdf"; sourceTree = "<group>"; };
+		2F219B5A2C6FB253001DBF07 /* K-8-Class-23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-23.pdf"; sourceTree = "<group>"; };
+		2F219B5B2C6FB253001DBF07 /* K-8-Class-24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-24.pdf"; sourceTree = "<group>"; };
+		2F219B5C2C6FB253001DBF07 /* K-8-Class-25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-25.pdf"; sourceTree = "<group>"; };
+		2F219B5D2C6FB253001DBF07 /* K-8-Class-26.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-26.pdf"; sourceTree = "<group>"; };
+		2F219B5E2C6FB253001DBF07 /* K-8-Class-27.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-27.pdf"; sourceTree = "<group>"; };
+		2F219B5F2C6FB253001DBF07 /* K-8-Class-28.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-28.pdf"; sourceTree = "<group>"; };
+		2F219B602C6FB253001DBF07 /* K-8-Class-29.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-29.pdf"; sourceTree = "<group>"; };
+		2F219B612C6FB253001DBF07 /* K-8-Class-30.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-30.pdf"; sourceTree = "<group>"; };
+		2F219B622C6FB253001DBF07 /* K-8-Class-31.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-31.pdf"; sourceTree = "<group>"; };
+		2F219B632C6FB253001DBF07 /* K-8-Class-32.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-32.pdf"; sourceTree = "<group>"; };
+		2F219B642C6FB253001DBF07 /* K-8-Class-33.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-33.pdf"; sourceTree = "<group>"; };
+		2F219B652C6FB253001DBF07 /* K-8-Class-34.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-34.pdf"; sourceTree = "<group>"; };
+		2F219B662C6FB253001DBF07 /* K-8-Class-35.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-35.pdf"; sourceTree = "<group>"; };
+		2F219B672C6FB253001DBF07 /* K-8-Class-36.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-36.pdf"; sourceTree = "<group>"; };
+		2F219B682C6FB253001DBF07 /* K-8-Class-37.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-37.pdf"; sourceTree = "<group>"; };
+		2F219B692C6FB253001DBF07 /* K-8-Class-38.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-38.pdf"; sourceTree = "<group>"; };
+		2F219B6A2C6FB253001DBF07 /* K-8-Class-39.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-39.pdf"; sourceTree = "<group>"; };
+		2F219B6B2C6FB253001DBF07 /* K-8-Class-40.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-40.pdf"; sourceTree = "<group>"; };
+		2F219B6C2C6FB253001DBF07 /* K-8-Class-41.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-41.pdf"; sourceTree = "<group>"; };
+		2F219B6D2C6FB253001DBF07 /* K-8-Class-42.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-42.pdf"; sourceTree = "<group>"; };
+		2F219B6E2C6FB253001DBF07 /* K-8-Class-43.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-43.pdf"; sourceTree = "<group>"; };
+		2F219B6F2C6FB253001DBF07 /* K-8-Class-44.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-44.pdf"; sourceTree = "<group>"; };
+		2F219B702C6FB253001DBF07 /* K-8-Class-45.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-45.pdf"; sourceTree = "<group>"; };
+		2F219B712C6FB253001DBF07 /* K-8-Class-46.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-46.pdf"; sourceTree = "<group>"; };
+		2F219B722C6FB253001DBF07 /* K-8-Class-47.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-47.pdf"; sourceTree = "<group>"; };
+		2F219B732C6FB253001DBF07 /* K-8-Class-48.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-48.pdf"; sourceTree = "<group>"; };
+		2F219B742C6FB253001DBF07 /* K-8-Class-49.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-49.pdf"; sourceTree = "<group>"; };
+		2F219B752C6FB253001DBF07 /* K-8-Class-50.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8-Class-50.pdf"; sourceTree = "<group>"; };
+		2F2E96952C7A418C009B0FAF /* intro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = intro.mov; sourceTree = "<group>"; };
+		2F2E969C2C7AD0D4009B0FAF /* Class Guide and Tips.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Class Guide and Tips.pdf"; sourceTree = "<group>"; };
+		2F33E7EA2C819215009BC8D0 /* K-8 Class 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 1.pdf"; sourceTree = "<group>"; };
+		2F33E7EB2C819215009BC8D0 /* K-8 Class 38.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 38.pdf"; sourceTree = "<group>"; };
+		2F33E7EC2C819215009BC8D0 /* K-8 Class 12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 12.pdf"; sourceTree = "<group>"; };
+		2F33E7ED2C819216009BC8D0 /* K-8 Class 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 7.pdf"; sourceTree = "<group>"; };
+		2F33E7EE2C819216009BC8D0 /* K-8 Class 34.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 34.pdf"; sourceTree = "<group>"; };
+		2F33E7EF2C819216009BC8D0 /* K-8 Class 45.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 45.pdf"; sourceTree = "<group>"; };
+		2F33E7F02C819216009BC8D0 /* K-8 Class 23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 23.pdf"; sourceTree = "<group>"; };
+		2F33E7F12C819216009BC8D0 /* K-8 Class 24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 24.pdf"; sourceTree = "<group>"; };
+		2F33E7F22C819216009BC8D0 /* K-8 Class 15.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 15.pdf"; sourceTree = "<group>"; };
+		2F33E7F32C819216009BC8D0 /* K-8 Class 50.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 50.pdf"; sourceTree = "<group>"; };
+		2F33E7F42C819216009BC8D0 /* K-8 Class 26.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 26.pdf"; sourceTree = "<group>"; };
+		2F33E7F52C819216009BC8D0 /* K-8 Class 4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 4.pdf"; sourceTree = "<group>"; };
+		2F33E7F62C819216009BC8D0 /* K-8 Class 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 11.pdf"; sourceTree = "<group>"; };
+		2F33E7F72C819216009BC8D0 /* K-8 Class 6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 6.pdf"; sourceTree = "<group>"; };
+		2F33E7F82C819216009BC8D0 /* K-8 Class 41.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 41.pdf"; sourceTree = "<group>"; };
+		2F33E7F92C819216009BC8D0 /* K-8 Class 28.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 28.pdf"; sourceTree = "<group>"; };
+		2F33E7FA2C819216009BC8D0 /* K-8 Class 16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 16.pdf"; sourceTree = "<group>"; };
+		2F33E7FB2C819216009BC8D0 /* K-8 Class 37.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 37.pdf"; sourceTree = "<group>"; };
+		2F33E7FC2C819216009BC8D0 /* K-8 Class 42.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 42.pdf"; sourceTree = "<group>"; };
+		2F33E7FD2C819216009BC8D0 /* K-8 Class 19.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 19.pdf"; sourceTree = "<group>"; };
+		2F33E7FE2C819216009BC8D0 /* K-8 Class 5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 5.pdf"; sourceTree = "<group>"; };
+		2F33E7FF2C819216009BC8D0 /* K-8 Class 9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 9.pdf"; sourceTree = "<group>"; };
+		2F33E8002C819216009BC8D0 /* K-8 Class 47.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 47.pdf"; sourceTree = "<group>"; };
+		2F33E8012C819216009BC8D0 /* K-8 Class 35.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 35.pdf"; sourceTree = "<group>"; };
+		2F33E8022C819216009BC8D0 /* K-8 Class 44.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 44.pdf"; sourceTree = "<group>"; };
+		2F33E8032C819216009BC8D0 /* K-8 Class 30.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 30.pdf"; sourceTree = "<group>"; };
+		2F33E8042C819216009BC8D0 /* K-8 Class 49.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 49.pdf"; sourceTree = "<group>"; };
+		2F33E8052C819217009BC8D0 /* K-8 Class 14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 14.pdf"; sourceTree = "<group>"; };
+		2F33E8062C819217009BC8D0 /* K-8 Class 21.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 21.pdf"; sourceTree = "<group>"; };
+		2F33E8072C819217009BC8D0 /* K-8 Class 36.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 36.pdf"; sourceTree = "<group>"; };
+		2F33E8082C819217009BC8D0 /* K-8 Class 29.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 29.pdf"; sourceTree = "<group>"; };
+		2F33E8092C819217009BC8D0 /* K-8 Class 46.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 46.pdf"; sourceTree = "<group>"; };
+		2F33E80A2C819217009BC8D0 /* K-8 Class 10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 10.pdf"; sourceTree = "<group>"; };
+		2F33E80B2C819217009BC8D0 /* K-8 Class 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 2.pdf"; sourceTree = "<group>"; };
+		2F33E80C2C819217009BC8D0 /* K-8 Class 18.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 18.pdf"; sourceTree = "<group>"; };
+		2F33E80D2C819217009BC8D0 /* K-8 Class 17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 17.pdf"; sourceTree = "<group>"; };
+		2F33E80E2C819217009BC8D0 /* K-8 Class 20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 20.pdf"; sourceTree = "<group>"; };
+		2F33E80F2C819217009BC8D0 /* K-8 Class 8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 8.pdf"; sourceTree = "<group>"; };
+		2F33E8102C819217009BC8D0 /* K-8 Class 39.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 39.pdf"; sourceTree = "<group>"; };
+		2F33E8112C819217009BC8D0 /* K-8 Class 31.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 31.pdf"; sourceTree = "<group>"; };
+		2F33E8122C819217009BC8D0 /* K-8 Class 25.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 25.pdf"; sourceTree = "<group>"; };
+		2F33E8132C819217009BC8D0 /* K-8 Class 22.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 22.pdf"; sourceTree = "<group>"; };
+		2F33E8142C819217009BC8D0 /* K-8 Class 27.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 27.pdf"; sourceTree = "<group>"; };
+		2F33E8152C819217009BC8D0 /* K-8 Class 48.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 48.pdf"; sourceTree = "<group>"; };
+		2F33E8162C819217009BC8D0 /* K-8 Class 33.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 33.pdf"; sourceTree = "<group>"; };
+		2F33E8172C819217009BC8D0 /* K-8 Class 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 3.pdf"; sourceTree = "<group>"; };
+		2F33E8182C819217009BC8D0 /* K-8 Class 43.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 43.pdf"; sourceTree = "<group>"; };
+		2F33E8192C819218009BC8D0 /* K-8 Class 13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 13.pdf"; sourceTree = "<group>"; };
+		2F33E81A2C819218009BC8D0 /* K-8 Class 32.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 32.pdf"; sourceTree = "<group>"; };
+		2F33E81B2C819218009BC8D0 /* K-8 Class 40.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "K-8 Class 40.pdf"; sourceTree = "<group>"; };
+		2F57120C2BB0E44800082993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F57122F2BB0E77100082993 /* Equipment List.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Equipment List.pdf"; sourceTree = "<group>"; };
+		2F5712312BB0E78200082993 /* Fitness Testing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fitness Testing.pdf"; sourceTree = "<group>"; };
+		2F86D8FE2C6FBDAE002A4A98 /* Plank Challenge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Plank Challenge.pdf"; sourceTree = "<group>"; };
+		2F86D8FF2C6FBDAE002A4A98 /* Before Breakfast Cardio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Before Breakfast Cardio.pdf"; sourceTree = "<group>"; };
+		2F86D9002C6FBDAE002A4A98 /* Build Your Own Snowman Workout.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Build Your Own Snowman Workout.pdf"; sourceTree = "<group>"; };
+		2F86D9012C6FBDAE002A4A98 /* Spell Your Name Fitness Activity.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Spell Your Name Fitness Activity.pdf"; sourceTree = "<group>"; };
+		2F86D9022C6FBDAE002A4A98 /* Roll into Fitness.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Roll into Fitness.pdf"; sourceTree = "<group>"; };
+		2F86D9032C6FBDAE002A4A98 /* A November Stuffed With Fitness.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A November Stuffed With Fitness.pdf"; sourceTree = "<group>"; };
+		2F86D9042C6FBDAE002A4A98 /* Word Search.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Word Search.pdf"; sourceTree = "<group>"; };
+		2F86D9052C6FBDAE002A4A98 /* February Fitness.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "February Fitness.pdf"; sourceTree = "<group>"; };
+		2F86D9062C6FBDAE002A4A98 /* Fitness-Bingo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fitness-Bingo.pdf"; sourceTree = "<group>"; };
+		2F86D9072C6FBDAE002A4A98 /* Mindful Movement Calendar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mindful Movement Calendar.pdf"; sourceTree = "<group>"; };
+		2F86D9082C6FBDAE002A4A98 /* 31 Day Squat Challenge.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "31 Day Squat Challenge.pdf"; sourceTree = "<group>"; };
+		2F86D9092C6FBDAE002A4A98 /* Tic Tac Toe Fitness.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tic Tac Toe Fitness.pdf"; sourceTree = "<group>"; };
+		2F86D9172C6FBDD6002A4A98 /* Brain Breaks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Brain Breaks.pdf"; sourceTree = "<group>"; };
+		2F86D9182C6FBDD6002A4A98 /* Morning Movement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Morning Movement.pdf"; sourceTree = "<group>"; };
+		2F86D9192C6FBDD6002A4A98 /* Monthly Mindfulness.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Monthly Mindfulness.pdf"; sourceTree = "<group>"; };
+		2F86D91A2C6FBDD6002A4A98 /* Yoga Flows.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yoga Flows.pdf"; sourceTree = "<group>"; };
+		2F86D9232C70B347002A4A98 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
+		2FC6BE272B92E58D00666A83 /* FitKids-CC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitKids-CC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC6BE2A2B92E58D00666A83 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		2FC6BE2E2B92E58E00666A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC6BE362B92E58E00666A83 /* FitKids_CC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitKids_CC.xcdatamodel; sourceTree = "<group>"; };
+		2FC6BE4E2B92EEDD00666A83 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2FE1E2C72BB0F1690035B229 /* Classroom Fitness Games.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Classroom Fitness Games.pdf"; sourceTree = "<group>"; };
+		2FE1E2C92BB0F1690035B229 /* Leading Fit Kids Indoors.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Leading Fit Kids Indoors.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC6BE242B92E58D00666A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F86D9222C70B087002A4A98 /* AmplitudeSwift in Frameworks */,
+				2F07D2232C78D86A00871D7F /* SPConfetti in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F07D1FD2C78C99C00871D7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F07D2242C78D9A500871D7F /* TitleView.swift */,
+				2F07D2032C78CB5300871D7F /* ClassView.swift */,
+				2F07D2052C78CEA800871D7F /* ResourcesView.swift */,
+				2F07D1FF2C78CA5C00871D7F /* PDFView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F219B762C6FB253001DBF07 /* K-8 Lesson Plans */ = {
+			isa = PBXGroup;
+			children = (
+				2F219B442C6FB253001DBF07 /* K-8-Class-1.pdf */,
+				2F219B452C6FB253001DBF07 /* K-8-Class-2.pdf */,
+				2F219B462C6FB253001DBF07 /* K-8-Class-3.pdf */,
+				2F219B472C6FB253001DBF07 /* K-8-Class-4.pdf */,
+				2F219B482C6FB253001DBF07 /* K-8-Class-5.pdf */,
+				2F219B492C6FB253001DBF07 /* K-8-Class-6.pdf */,
+				2F219B4A2C6FB253001DBF07 /* K-8-Class-7.pdf */,
+				2F219B4B2C6FB253001DBF07 /* K-8-Class-8.pdf */,
+				2F219B4C2C6FB253001DBF07 /* K-8-Class-9.pdf */,
+				2F219B4D2C6FB253001DBF07 /* K-8-Class-10.pdf */,
+				2F219B4E2C6FB253001DBF07 /* K-8-Class-11.pdf */,
+				2F219B4F2C6FB253001DBF07 /* K-8-Class-12.pdf */,
+				2F219B502C6FB253001DBF07 /* K-8-Class-13.pdf */,
+				2F219B512C6FB253001DBF07 /* K-8-Class-14.pdf */,
+				2F219B522C6FB253001DBF07 /* K-8-Class-15.pdf */,
+				2F219B532C6FB253001DBF07 /* K-8-Class-16.pdf */,
+				2F219B542C6FB253001DBF07 /* K-8-Class-17.pdf */,
+				2F219B552C6FB253001DBF07 /* K-8-Class-18.pdf */,
+				2F219B562C6FB253001DBF07 /* K-8-Class-19.pdf */,
+				2F219B572C6FB253001DBF07 /* K-8-Class-20.pdf */,
+				2F219B582C6FB253001DBF07 /* K-8-Class-21.pdf */,
+				2F219B592C6FB253001DBF07 /* K-8-Class-22.pdf */,
+				2F219B5A2C6FB253001DBF07 /* K-8-Class-23.pdf */,
+				2F219B5B2C6FB253001DBF07 /* K-8-Class-24.pdf */,
+				2F219B5C2C6FB253001DBF07 /* K-8-Class-25.pdf */,
+				2F219B5D2C6FB253001DBF07 /* K-8-Class-26.pdf */,
+				2F219B5E2C6FB253001DBF07 /* K-8-Class-27.pdf */,
+				2F219B5F2C6FB253001DBF07 /* K-8-Class-28.pdf */,
+				2F219B602C6FB253001DBF07 /* K-8-Class-29.pdf */,
+				2F219B612C6FB253001DBF07 /* K-8-Class-30.pdf */,
+				2F219B622C6FB253001DBF07 /* K-8-Class-31.pdf */,
+				2F219B632C6FB253001DBF07 /* K-8-Class-32.pdf */,
+				2F219B642C6FB253001DBF07 /* K-8-Class-33.pdf */,
+				2F219B652C6FB253001DBF07 /* K-8-Class-34.pdf */,
+				2F219B662C6FB253001DBF07 /* K-8-Class-35.pdf */,
+				2F219B672C6FB253001DBF07 /* K-8-Class-36.pdf */,
+				2F219B682C6FB253001DBF07 /* K-8-Class-37.pdf */,
+				2F219B692C6FB253001DBF07 /* K-8-Class-38.pdf */,
+				2F219B6A2C6FB253001DBF07 /* K-8-Class-39.pdf */,
+				2F219B6B2C6FB253001DBF07 /* K-8-Class-40.pdf */,
+				2F219B6C2C6FB253001DBF07 /* K-8-Class-41.pdf */,
+				2F219B6D2C6FB253001DBF07 /* K-8-Class-42.pdf */,
+				2F219B6E2C6FB253001DBF07 /* K-8-Class-43.pdf */,
+				2F219B6F2C6FB253001DBF07 /* K-8-Class-44.pdf */,
+				2F219B702C6FB253001DBF07 /* K-8-Class-45.pdf */,
+				2F219B712C6FB253001DBF07 /* K-8-Class-46.pdf */,
+				2F219B722C6FB253001DBF07 /* K-8-Class-47.pdf */,
+				2F219B732C6FB253001DBF07 /* K-8-Class-48.pdf */,
+				2F219B742C6FB253001DBF07 /* K-8-Class-49.pdf */,
+				2F219B752C6FB253001DBF07 /* K-8-Class-50.pdf */,
+			);
+			path = "K-8 Lesson Plans";
+			sourceTree = "<group>";
+		};
+		2F2E96982C7A4964009B0FAF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2FC6BE4E2B92EEDD00666A83 /* Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2F33E7E92C8191F4009BC8D0 /* Curriculum */ = {
+			isa = PBXGroup;
+			children = (
+				2F33E7EA2C819215009BC8D0 /* K-8 Class 1.pdf */,
+				2F33E80B2C819217009BC8D0 /* K-8 Class 2.pdf */,
+				2F33E8172C819217009BC8D0 /* K-8 Class 3.pdf */,
+				2F33E7F52C819216009BC8D0 /* K-8 Class 4.pdf */,
+				2F33E7FE2C819216009BC8D0 /* K-8 Class 5.pdf */,
+				2F33E7F72C819216009BC8D0 /* K-8 Class 6.pdf */,
+				2F33E7ED2C819216009BC8D0 /* K-8 Class 7.pdf */,
+				2F33E80F2C819217009BC8D0 /* K-8 Class 8.pdf */,
+				2F33E7FF2C819216009BC8D0 /* K-8 Class 9.pdf */,
+				2F33E80A2C819217009BC8D0 /* K-8 Class 10.pdf */,
+				2F33E7F62C819216009BC8D0 /* K-8 Class 11.pdf */,
+				2F33E7EC2C819215009BC8D0 /* K-8 Class 12.pdf */,
+				2F33E8192C819218009BC8D0 /* K-8 Class 13.pdf */,
+				2F33E8052C819217009BC8D0 /* K-8 Class 14.pdf */,
+				2F33E7F22C819216009BC8D0 /* K-8 Class 15.pdf */,
+				2F33E7FA2C819216009BC8D0 /* K-8 Class 16.pdf */,
+				2F33E80D2C819217009BC8D0 /* K-8 Class 17.pdf */,
+				2F33E80C2C819217009BC8D0 /* K-8 Class 18.pdf */,
+				2F33E7FD2C819216009BC8D0 /* K-8 Class 19.pdf */,
+				2F33E80E2C819217009BC8D0 /* K-8 Class 20.pdf */,
+				2F33E8062C819217009BC8D0 /* K-8 Class 21.pdf */,
+				2F33E8132C819217009BC8D0 /* K-8 Class 22.pdf */,
+				2F33E7F02C819216009BC8D0 /* K-8 Class 23.pdf */,
+				2F33E7F12C819216009BC8D0 /* K-8 Class 24.pdf */,
+				2F33E8122C819217009BC8D0 /* K-8 Class 25.pdf */,
+				2F33E7F42C819216009BC8D0 /* K-8 Class 26.pdf */,
+				2F33E8142C819217009BC8D0 /* K-8 Class 27.pdf */,
+				2F33E7F92C819216009BC8D0 /* K-8 Class 28.pdf */,
+				2F33E8082C819217009BC8D0 /* K-8 Class 29.pdf */,
+				2F33E8032C819216009BC8D0 /* K-8 Class 30.pdf */,
+				2F33E8112C819217009BC8D0 /* K-8 Class 31.pdf */,
+				2F33E81A2C819218009BC8D0 /* K-8 Class 32.pdf */,
+				2F33E8162C819217009BC8D0 /* K-8 Class 33.pdf */,
+				2F33E7EE2C819216009BC8D0 /* K-8 Class 34.pdf */,
+				2F33E8012C819216009BC8D0 /* K-8 Class 35.pdf */,
+				2F33E8072C819217009BC8D0 /* K-8 Class 36.pdf */,
+				2F33E7FB2C819216009BC8D0 /* K-8 Class 37.pdf */,
+				2F33E7EB2C819215009BC8D0 /* K-8 Class 38.pdf */,
+				2F33E8102C819217009BC8D0 /* K-8 Class 39.pdf */,
+				2F33E81B2C819218009BC8D0 /* K-8 Class 40.pdf */,
+				2F33E7F82C819216009BC8D0 /* K-8 Class 41.pdf */,
+				2F33E7FC2C819216009BC8D0 /* K-8 Class 42.pdf */,
+				2F33E8182C819217009BC8D0 /* K-8 Class 43.pdf */,
+				2F33E8022C819216009BC8D0 /* K-8 Class 44.pdf */,
+				2F33E7EF2C819216009BC8D0 /* K-8 Class 45.pdf */,
+				2F33E8092C819217009BC8D0 /* K-8 Class 46.pdf */,
+				2F33E8002C819216009BC8D0 /* K-8 Class 47.pdf */,
+				2F33E8152C819217009BC8D0 /* K-8 Class 48.pdf */,
+				2F33E8042C819216009BC8D0 /* K-8 Class 49.pdf */,
+				2F33E7F32C819216009BC8D0 /* K-8 Class 50.pdf */,
+			);
+			path = Curriculum;
+			sourceTree = "<group>";
+		};
+		2F57120F2BB0E6DE00082993 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				2F219B762C6FB253001DBF07 /* K-8 Lesson Plans */,
+				2F5712372BB0EE2400082993 /* Curriculum */,
+				2F5712102BB0E6F100082993 /* Get-Started */,
+			);
+			path = PDFs;
+			sourceTree = "<group>";
+		};
+		2F5712102BB0E6F100082993 /* Get-Started */ = {
+			isa = PBXGroup;
+			children = (
+				2F33E7E92C8191F4009BC8D0 /* Curriculum */,
+				2F86D8FB2C6FBA08002A4A98 /* Program Implementation Resources */,
+				2F86D91B2C6FBDD6002A4A98 /* Brain Breaks */,
+				2F86D90A2C6FBDAE002A4A98 /* Fitness Games and Challenges */,
+				2F5712132BB0E72600082993 /* Coaching Resources (PCA) */,
+			);
+			path = "Get-Started";
+			sourceTree = "<group>";
+		};
+		2F5712132BB0E72600082993 /* Coaching Resources (PCA) */ = {
+			isa = PBXGroup;
+			children = (
+				2F07D2072C78CFBA00871D7F /* Age Appropriate Coaching.pdf */,
+				2F07D2082C78CFBA00871D7F /* Behavior Guidance Intervention.pdf */,
+				2F07D2092C78CFBA00871D7F /* FKF CDC Body Chart.pdf */,
+				2F07D20A2C78CFBA00871D7F /* Game Plan For Girls in Sports.pdf */,
+				2F07D20B2C78CFBA00871D7F /* Healing Centered Coaching.pdf */,
+				2F07D20C2C78CFBA00871D7F /* How Kids Learn Best.pdf */,
+				2F07D20D2C78CFBA00871D7F /* Positive Behavior Guidance Prevention.pdf */,
+				2F07D20E2C78CFBA00871D7F /* Role of a Coach.pdf */,
+				2F07D20F2C78CFBA00871D7F /* Safety Tips.pdf */,
+				2F07D2102C78CFBA00871D7F /* Tips for the First Time Coach.pdf */,
+				2F07D2112C78CFBA00871D7F /* Tricks of the Trade.pdf */,
+				2F07D2122C78CFBA00871D7F /* Understanding Traumas Impact on Behavior.pdf */,
+			);
+			path = "Coaching Resources (PCA)";
+			sourceTree = "<group>";
+		};
+		2F5712372BB0EE2400082993 /* Curriculum */ = {
+			isa = PBXGroup;
+			children = (
+				2F5712AA2BB0EEB100082993 /* 1-K8 Curriculum */,
+				2FE1E2C62BB0F1690035B229 /* 4-Classroom Fitness Games  */,
+			);
+			name = Curriculum;
+			path = "FitKids-CC/PDFs/Curriculum";
+			sourceTree = SOURCE_ROOT;
+		};
+		2F5712392BB0EE9800082993 /* Fitness Movements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Fitness Movements";
+			sourceTree = "<group>";
+		};
+		2F57123B2BB0EE9800082993 /* Fitness Cooldowns */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Fitness Cooldowns";
+			sourceTree = "<group>";
+		};
+		2F57123D2BB0EE9800082993 /* Class Guide and Tips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Class Guide and Tips";
+			sourceTree = "<group>";
+		};
+		2F5712722BB0EE9900082993 /* Fitness Warmups */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Fitness Warmups";
+			sourceTree = "<group>";
+		};
+		2F5712AA2BB0EEB100082993 /* 1-K8 Curriculum */ = {
+			isa = PBXGroup;
+			children = (
+				2F57123D2BB0EE9800082993 /* Class Guide and Tips */,
+				2F57123B2BB0EE9800082993 /* Fitness Cooldowns */,
+				2F5712392BB0EE9800082993 /* Fitness Movements */,
+				2F5712722BB0EE9900082993 /* Fitness Warmups */,
+			);
+			path = "1-K8 Curriculum";
+			sourceTree = "<group>";
+		};
+		2F86D8FB2C6FBA08002A4A98 /* Program Implementation Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FE1E2C92BB0F1690035B229 /* Leading Fit Kids Indoors.pdf */,
+				2F57122F2BB0E77100082993 /* Equipment List.pdf */,
+				2F5712312BB0E78200082993 /* Fitness Testing.pdf */,
+				2F2E969C2C7AD0D4009B0FAF /* Class Guide and Tips.pdf */,
+			);
+			path = "Program Implementation Resources";
+			sourceTree = "<group>";
+		};
+		2F86D90A2C6FBDAE002A4A98 /* Fitness Games and Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				2FE1E2C72BB0F1690035B229 /* Classroom Fitness Games.pdf */,
+				2F86D8FE2C6FBDAE002A4A98 /* Plank Challenge.pdf */,
+				2F86D8FF2C6FBDAE002A4A98 /* Before Breakfast Cardio.pdf */,
+				2F86D9002C6FBDAE002A4A98 /* Build Your Own Snowman Workout.pdf */,
+				2F86D9012C6FBDAE002A4A98 /* Spell Your Name Fitness Activity.pdf */,
+				2F86D9022C6FBDAE002A4A98 /* Roll into Fitness.pdf */,
+				2F86D9032C6FBDAE002A4A98 /* A November Stuffed With Fitness.pdf */,
+				2F86D9042C6FBDAE002A4A98 /* Word Search.pdf */,
+				2F86D9052C6FBDAE002A4A98 /* February Fitness.pdf */,
+				2F86D9062C6FBDAE002A4A98 /* Fitness-Bingo.pdf */,
+				2F86D9072C6FBDAE002A4A98 /* Mindful Movement Calendar.pdf */,
+				2F86D9082C6FBDAE002A4A98 /* 31 Day Squat Challenge.pdf */,
+				2F86D9092C6FBDAE002A4A98 /* Tic Tac Toe Fitness.pdf */,
+			);
+			path = "Fitness Games and Challenges";
+			sourceTree = "<group>";
+		};
+		2F86D91B2C6FBDD6002A4A98 /* Brain Breaks */ = {
+			isa = PBXGroup;
+			children = (
+				2F86D9172C6FBDD6002A4A98 /* Brain Breaks.pdf */,
+				2F86D9182C6FBDD6002A4A98 /* Morning Movement.pdf */,
+				2F86D9192C6FBDD6002A4A98 /* Monthly Mindfulness.pdf */,
+				2F86D91A2C6FBDD6002A4A98 /* Yoga Flows.pdf */,
+			);
+			path = "Brain Breaks";
+			sourceTree = "<group>";
+		};
+		2FC6BE1E2B92E58D00666A83 = {
+			isa = PBXGroup;
+			children = (
+				2FC6BE292B92E58D00666A83 /* FitKids-CC */,
+				2FC6BE282B92E58D00666A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC6BE282B92E58D00666A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC6BE272B92E58D00666A83 /* FitKids-CC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC6BE292B92E58D00666A83 /* FitKids-CC */ = {
+			isa = PBXGroup;
+			children = (
+				2F2E96982C7A4964009B0FAF /* Login */,
+				2F07D1FD2C78C99C00871D7F /* Views */,
+				2F57120F2BB0E6DE00082993 /* PDFs */,
+				2F57120C2BB0E44800082993 /* Info.plist */,
+				2FC6BE2A2B92E58D00666A83 /* App.swift */,
+				2F86D9232C70B347002A4A98 /* AmplitudeManager.swift */,
+				2F2E96952C7A418C009B0FAF /* intro.mov */,
+				2FC6BE2E2B92E58E00666A83 /* Assets.xcassets */,
+				2FC6BE352B92E58E00666A83 /* FitKids_CC.xcdatamodeld */,
+			);
+			path = "FitKids-CC";
+			sourceTree = "<group>";
+		};
+		2FE1E2C62BB0F1690035B229 /* 4-Classroom Fitness Games  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4-Classroom Fitness Games ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC6BE262B92E58D00666A83 /* FitKids-CC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC6BE3A2B92E58E00666A83 /* Build configuration list for PBXNativeTarget "FitKids-CC" */;
+			buildPhases = (
+				2FC6BE232B92E58D00666A83 /* Sources */,
+				2FC6BE242B92E58D00666A83 /* Frameworks */,
+				2FC6BE252B92E58D00666A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitKids-CC";
+			packageProductDependencies = (
+				2F86D9212C70B087002A4A98 /* AmplitudeSwift */,
+				2F07D2222C78D86A00871D7F /* SPConfetti */,
+			);
+			productName = "FitKids-CC";
+			productReference = 2FC6BE272B92E58D00666A83 /* FitKids-CC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC6BE1F2B92E58D00666A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2FC6BE262B92E58D00666A83 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2FC6BE222B92E58D00666A83 /* Build configuration list for PBXProject "FitKids-CC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC6BE1E2B92E58D00666A83;
+			packageReferences = (
+				2F86D9202C70B087002A4A98 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */,
+				2F07D2212C78D86A00871D7F /* XCRemoteSwiftPackageReference "SPConfetti" */,
+			);
+			productRefGroup = 2FC6BE282B92E58D00666A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC6BE262B92E58D00666A83 /* FitKids-CC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC6BE252B92E58D00666A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5712302BB0E77100082993 /* Equipment List.pdf in Resources */,
+				2F33E8372C819218009BC8D0 /* K-8 Class 14.pdf in Resources */,
+				2F33E8442C819218009BC8D0 /* K-8 Class 25.pdf in Resources */,
+				2F86D90B2C6FBDAE002A4A98 /* Mindful Movement Calendar.pdf in Resources */,
+				2F33E8312C819218009BC8D0 /* K-8 Class 9.pdf in Resources */,
+				2F33E8232C819218009BC8D0 /* K-8 Class 24.pdf in Resources */,
+				2F86D90C2C6FBDAE002A4A98 /* February Fitness.pdf in Resources */,
+				2F86D90D2C6FBDAE002A4A98 /* Spell Your Name Fitness Activity.pdf in Resources */,
+				2F86D90E2C6FBDAE002A4A98 /* Plank Challenge.pdf in Resources */,
+				2F33E8382C819218009BC8D0 /* K-8 Class 21.pdf in Resources */,
+				2F86D90F2C6FBDAE002A4A98 /* Word Search.pdf in Resources */,
+				2F33E8322C819218009BC8D0 /* K-8 Class 47.pdf in Resources */,
+				2F86D9102C6FBDAE002A4A98 /* Roll into Fitness.pdf in Resources */,
+				2F33E82C2C819218009BC8D0 /* K-8 Class 16.pdf in Resources */,
+				2F86D9112C6FBDAE002A4A98 /* Fitness-Bingo.pdf in Resources */,
+				2F86D9122C6FBDAE002A4A98 /* A November Stuffed With Fitness.pdf in Resources */,
+				2F86D9132C6FBDAE002A4A98 /* Tic Tac Toe Fitness.pdf in Resources */,
+				2F86D9142C6FBDAE002A4A98 /* Before Breakfast Cardio.pdf in Resources */,
+				2F86D9152C6FBDAE002A4A98 /* 31 Day Squat Challenge.pdf in Resources */,
+				2F33E83C2C819218009BC8D0 /* K-8 Class 10.pdf in Resources */,
+				2F86D9162C6FBDAE002A4A98 /* Build Your Own Snowman Workout.pdf in Resources */,
+				2F5712322BB0E78200082993 /* Fitness Testing.pdf in Resources */,
+				2F07D2132C78CFBA00871D7F /* Understanding Traumas Impact on Behavior.pdf in Resources */,
+				2F33E8212C819218009BC8D0 /* K-8 Class 45.pdf in Resources */,
+				2F33E8262C819218009BC8D0 /* K-8 Class 26.pdf in Resources */,
+				2F07D2142C78CFBA00871D7F /* Behavior Guidance Intervention.pdf in Resources */,
+				2F07D2152C78CFBA00871D7F /* Age Appropriate Coaching.pdf in Resources */,
+				2F07D2162C78CFBA00871D7F /* How Kids Learn Best.pdf in Resources */,
+				2F07D2172C78CFBA00871D7F /* Tricks of the Trade.pdf in Resources */,
+				2F33E82B2C819218009BC8D0 /* K-8 Class 28.pdf in Resources */,
+				2F07D2182C78CFBA00871D7F /* Game Plan For Girls in Sports.pdf in Resources */,
+				2F07D2192C78CFBA00871D7F /* Role of a Coach.pdf in Resources */,
+				2F33E8342C819218009BC8D0 /* K-8 Class 44.pdf in Resources */,
+				2F07D21A2C78CFBA00871D7F /* FKF CDC Body Chart.pdf in Resources */,
+				2F07D21B2C78CFBA00871D7F /* Positive Behavior Guidance Prevention.pdf in Resources */,
+				2F33E8392C819218009BC8D0 /* K-8 Class 36.pdf in Resources */,
+				2F07D21C2C78CFBA00871D7F /* Safety Tips.pdf in Resources */,
+				2F33E8272C819218009BC8D0 /* K-8 Class 4.pdf in Resources */,
+				2F07D21D2C78CFBA00871D7F /* Healing Centered Coaching.pdf in Resources */,
+				2F07D21E2C78CFBA00871D7F /* Tips for the First Time Coach.pdf in Resources */,
+				2F33E83B2C819218009BC8D0 /* K-8 Class 46.pdf in Resources */,
+				2F219B772C6FB253001DBF07 /* K-8-Class-4.pdf in Resources */,
+				2F33E8252C819218009BC8D0 /* K-8 Class 50.pdf in Resources */,
+				2F33E8222C819218009BC8D0 /* K-8 Class 23.pdf in Resources */,
+				2F33E84D2C819218009BC8D0 /* K-8 Class 40.pdf in Resources */,
+				2F33E83D2C819218009BC8D0 /* K-8 Class 2.pdf in Resources */,
+				2F219B782C6FB253001DBF07 /* K-8-Class-12.pdf in Resources */,
+				2F219B792C6FB253001DBF07 /* K-8-Class-32.pdf in Resources */,
+				2F219B7A2C6FB253001DBF07 /* K-8-Class-48.pdf in Resources */,
+				2F33E81F2C819218009BC8D0 /* K-8 Class 7.pdf in Resources */,
+				2F33E8402C819218009BC8D0 /* K-8 Class 20.pdf in Resources */,
+				2F219B7B2C6FB253001DBF07 /* K-8-Class-17.pdf in Resources */,
+				2F33E82E2C819218009BC8D0 /* K-8 Class 42.pdf in Resources */,
+				2F219B7C2C6FB253001DBF07 /* K-8-Class-25.pdf in Resources */,
+				2F219B7D2C6FB253001DBF07 /* K-8-Class-11.pdf in Resources */,
+				2F33E8422C819218009BC8D0 /* K-8 Class 39.pdf in Resources */,
+				2F33E8412C819218009BC8D0 /* K-8 Class 8.pdf in Resources */,
+				2F219B7E2C6FB253001DBF07 /* K-8-Class-22.pdf in Resources */,
+				2F33E8352C819218009BC8D0 /* K-8 Class 30.pdf in Resources */,
+				2F219B7F2C6FB253001DBF07 /* K-8-Class-24.pdf in Resources */,
+				2F219B802C6FB253001DBF07 /* K-8-Class-15.pdf in Resources */,
+				2F219B812C6FB253001DBF07 /* K-8-Class-26.pdf in Resources */,
+				2F219B822C6FB253001DBF07 /* K-8-Class-37.pdf in Resources */,
+				2F33E8282C819218009BC8D0 /* K-8 Class 11.pdf in Resources */,
+				2F219B832C6FB253001DBF07 /* K-8-Class-28.pdf in Resources */,
+				2F33E8332C819218009BC8D0 /* K-8 Class 35.pdf in Resources */,
+				2F33E8432C819218009BC8D0 /* K-8 Class 31.pdf in Resources */,
+				2F219B842C6FB253001DBF07 /* K-8-Class-10.pdf in Resources */,
+				2F33E8202C819218009BC8D0 /* K-8 Class 34.pdf in Resources */,
+				2F219B852C6FB253001DBF07 /* K-8-Class-2.pdf in Resources */,
+				2F219B862C6FB253001DBF07 /* K-8-Class-45.pdf in Resources */,
+				2F219B872C6FB253001DBF07 /* K-8-Class-34.pdf in Resources */,
+				2F219B882C6FB253001DBF07 /* K-8-Class-35.pdf in Resources */,
+				2F33E8292C819218009BC8D0 /* K-8 Class 6.pdf in Resources */,
+				2F219B892C6FB253001DBF07 /* K-8-Class-9.pdf in Resources */,
+				2F219B8A2C6FB253001DBF07 /* K-8-Class-40.pdf in Resources */,
+				2F219B8B2C6FB253001DBF07 /* K-8-Class-41.pdf in Resources */,
+				2F219B8C2C6FB253001DBF07 /* K-8-Class-5.pdf in Resources */,
+				2F219B8D2C6FB253001DBF07 /* K-8-Class-29.pdf in Resources */,
+				2F219B8E2C6FB253001DBF07 /* K-8-Class-3.pdf in Resources */,
+				2F219B8F2C6FB253001DBF07 /* K-8-Class-13.pdf in Resources */,
+				2F33E83A2C819218009BC8D0 /* K-8 Class 29.pdf in Resources */,
+				2F219B902C6FB253001DBF07 /* K-8-Class-39.pdf in Resources */,
+				2F219B912C6FB253001DBF07 /* K-8-Class-19.pdf in Resources */,
+				2F33E81D2C819218009BC8D0 /* K-8 Class 38.pdf in Resources */,
+				2F219B922C6FB253001DBF07 /* K-8-Class-16.pdf in Resources */,
+				2F33E8482C819218009BC8D0 /* K-8 Class 33.pdf in Resources */,
+				2F219B932C6FB253001DBF07 /* K-8-Class-38.pdf in Resources */,
+				2F219B942C6FB253001DBF07 /* K-8-Class-20.pdf in Resources */,
+				2F219B952C6FB253001DBF07 /* K-8-Class-30.pdf in Resources */,
+				2F33E8452C819218009BC8D0 /* K-8 Class 22.pdf in Resources */,
+				2F219B962C6FB253001DBF07 /* K-8-Class-21.pdf in Resources */,
+				2F219B972C6FB253001DBF07 /* K-8-Class-33.pdf in Resources */,
+				2F219B982C6FB253001DBF07 /* K-8-Class-49.pdf in Resources */,
+				2F219B992C6FB253001DBF07 /* K-8-Class-14.pdf in Resources */,
+				2F219B9A2C6FB253001DBF07 /* K-8-Class-31.pdf in Resources */,
+				2F219B9B2C6FB253001DBF07 /* K-8-Class-1.pdf in Resources */,
+				2F219B9C2C6FB253001DBF07 /* K-8-Class-6.pdf in Resources */,
+				2F219B9D2C6FB253001DBF07 /* K-8-Class-42.pdf in Resources */,
+				2F33E84A2C819218009BC8D0 /* K-8 Class 43.pdf in Resources */,
+				2F219B9E2C6FB253001DBF07 /* K-8-Class-44.pdf in Resources */,
+				2F219B9F2C6FB253001DBF07 /* K-8-Class-8.pdf in Resources */,
+				2F33E81C2C819218009BC8D0 /* K-8 Class 1.pdf in Resources */,
+				2F219BA02C6FB253001DBF07 /* K-8-Class-23.pdf in Resources */,
+				2F33E8492C819218009BC8D0 /* K-8 Class 3.pdf in Resources */,
+				2F33E84B2C819218009BC8D0 /* K-8 Class 13.pdf in Resources */,
+				2F219BA12C6FB253001DBF07 /* K-8-Class-36.pdf in Resources */,
+				2F33E83F2C819218009BC8D0 /* K-8 Class 17.pdf in Resources */,
+				2F33E8462C819218009BC8D0 /* K-8 Class 27.pdf in Resources */,
+				2F33E8472C819218009BC8D0 /* K-8 Class 48.pdf in Resources */,
+				2F219BA22C6FB253001DBF07 /* K-8-Class-7.pdf in Resources */,
+				2F219BA32C6FB253001DBF07 /* K-8-Class-27.pdf in Resources */,
+				2F219BA42C6FB253001DBF07 /* K-8-Class-43.pdf in Resources */,
+				2F219BA52C6FB253001DBF07 /* K-8-Class-46.pdf in Resources */,
+				2F219BA62C6FB253001DBF07 /* K-8-Class-50.pdf in Resources */,
+				2F33E82D2C819218009BC8D0 /* K-8 Class 37.pdf in Resources */,
+				2F219BA72C6FB253001DBF07 /* K-8-Class-18.pdf in Resources */,
+				2F33E84C2C819218009BC8D0 /* K-8 Class 32.pdf in Resources */,
+				2F33E8302C819218009BC8D0 /* K-8 Class 5.pdf in Resources */,
+				2F33E8242C819218009BC8D0 /* K-8 Class 15.pdf in Resources */,
+				2F219BA82C6FB253001DBF07 /* K-8-Class-47.pdf in Resources */,
+				2F86D91C2C6FBDD6002A4A98 /* Monthly Mindfulness.pdf in Resources */,
+				2F33E83E2C819218009BC8D0 /* K-8 Class 18.pdf in Resources */,
+				2F86D91D2C6FBDD6002A4A98 /* Morning Movement.pdf in Resources */,
+				2F86D91E2C6FBDD6002A4A98 /* Brain Breaks.pdf in Resources */,
+				2F33E81E2C819218009BC8D0 /* K-8 Class 12.pdf in Resources */,
+				2F86D91F2C6FBDD6002A4A98 /* Yoga Flows.pdf in Resources */,
+				2F33E82F2C819218009BC8D0 /* K-8 Class 19.pdf in Resources */,
+				2F2E96992C7A4A12009B0FAF /* intro.mov in Resources */,
+				2FE1E2D82BB0F16A0035B229 /* Leading Fit Kids Indoors.pdf in Resources */,
+				2F2E969D2C7AD0D4009B0FAF /* Class Guide and Tips.pdf in Resources */,
+				2F33E8362C819218009BC8D0 /* K-8 Class 49.pdf in Resources */,
+				2FC6BE2F2B92E58E00666A83 /* Assets.xcassets in Resources */,
+				2F33E82A2C819218009BC8D0 /* K-8 Class 41.pdf in Resources */,
+				2FE1E2D72BB0F16A0035B229 /* Classroom Fitness Games.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC6BE232B92E58D00666A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F07D2252C78D9A800871D7F /* TitleView.swift in Sources */,
+				2FC6BE372B92E58E00666A83 /* FitKids_CC.xcdatamodeld in Sources */,
+				2FC6BE2B2B92E58D00666A83 /* App.swift in Sources */,
+				2F07D2062C78CEAD00871D7F /* ResourcesView.swift in Sources */,
+				2F86D9242C70B34A002A4A98 /* AmplitudeManager.swift in Sources */,
+				2F07D2042C78CB6200871D7F /* ClassView.swift in Sources */,
+				2FC6BE4F2B92EEDD00666A83 /* Login.swift in Sources */,
+				2F07D2002C78CA6600871D7F /* PDFView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FC6BE382B92E58E00666A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FC6BE392B92E58E00666A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC6BE3B2B92E58E00666A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SKYYALS6W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitKids-CC/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Coach's Corner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitkids.CoachCornerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC6BE3C2B92E58E00666A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SKYYALS6W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitKids-CC/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Coach's Corner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitkids.CoachCornerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC6BE222B92E58D00666A83 /* Build configuration list for PBXProject "FitKids-CC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC6BE382B92E58E00666A83 /* Debug */,
+				2FC6BE392B92E58E00666A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC6BE3A2B92E58E00666A83 /* Build configuration list for PBXNativeTarget "FitKids-CC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC6BE3B2B92E58E00666A83 /* Debug */,
+				2FC6BE3C2B92E58E00666A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F07D2212C78D86A00871D7F /* XCRemoteSwiftPackageReference "SPConfetti" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanvorobei/SPConfetti";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		2F86D9202C70B087002A4A98 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-Swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F07D2222C78D86A00871D7F /* SPConfetti */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F07D2212C78D86A00871D7F /* XCRemoteSwiftPackageReference "SPConfetti" */;
+			productName = SPConfetti;
+		};
+		2F86D9212C70B087002A4A98 /* AmplitudeSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F86D9202C70B087002A4A98 /* XCRemoteSwiftPackageReference "Amplitude-Swift" */;
+			productName = AmplitudeSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2FC6BE352B92E58E00666A83 /* FitKids_CC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FC6BE362B92E58E00666A83 /* FitKids_CC.xcdatamodel */,
+			);
+			currentVersion = 2FC6BE362B92E58E00666A83 /* FitKids_CC.xcdatamodel */;
+			path = FitKids_CC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FC6BE1F2B92E58D00666A83 /* Project object */;
+}
