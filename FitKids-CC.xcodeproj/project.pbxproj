@@ -151,6 +151,8 @@
 		2FC6BE2F2B92E58E00666A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6BE2E2B92E58E00666A83 /* Assets.xcassets */; };
 		2FC6BE372B92E58E00666A83 /* FitKids_CC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6BE352B92E58E00666A83 /* FitKids_CC.xcdatamodeld */; };
 		2FC6BE4F2B92EEDD00666A83 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6BE4E2B92EEDD00666A83 /* Login.swift */; };
+		2FD11BC72C8A0299003317BB /* WebKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD11BC62C8A0299003317BB /* WebKitView.swift */; };
+		2FD11BC92C8C23B4003317BB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD11BC82C8C23B4003317BB /* File.swift */; };
 		2FE1E2D72BB0F16A0035B229 /* Classroom Fitness Games.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE1E2C72BB0F1690035B229 /* Classroom Fitness Games.pdf */; };
 		2FE1E2D82BB0F16A0035B229 /* Leading Fit Kids Indoors.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE1E2C92BB0F1690035B229 /* Leading Fit Kids Indoors.pdf */; };
 /* End PBXBuildFile section */
@@ -300,6 +302,8 @@
 		2FC6BE2E2B92E58E00666A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC6BE362B92E58E00666A83 /* FitKids_CC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitKids_CC.xcdatamodel; sourceTree = "<group>"; };
 		2FC6BE4E2B92EEDD00666A83 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2FD11BC62C8A0299003317BB /* WebKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitView.swift; sourceTree = "<group>"; };
+		2FD11BC82C8C23B4003317BB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		2FE1E2C72BB0F1690035B229 /* Classroom Fitness Games.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Classroom Fitness Games.pdf"; sourceTree = "<group>"; };
 		2FE1E2C92BB0F1690035B229 /* Leading Fit Kids Indoors.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Leading Fit Kids Indoors.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -388,7 +392,9 @@
 		2F2E96982C7A4964009B0FAF /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				2FD11BC62C8A0299003317BB /* WebKitView.swift */,
 				2FC6BE4E2B92EEDD00666A83 /* Login.swift */,
+				2FD11BC82C8C23B4003317BB /* File.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -836,8 +842,10 @@
 			files = (
 				2F07D2252C78D9A800871D7F /* TitleView.swift in Sources */,
 				2FC6BE372B92E58E00666A83 /* FitKids_CC.xcdatamodeld in Sources */,
+				2FD11BC72C8A0299003317BB /* WebKitView.swift in Sources */,
 				2FC6BE2B2B92E58D00666A83 /* App.swift in Sources */,
 				2F07D2062C78CEAD00871D7F /* ResourcesView.swift in Sources */,
+				2FD11BC92C8C23B4003317BB /* File.swift in Sources */,
 				2F86D9242C70B34A002A4A98 /* AmplitudeManager.swift in Sources */,
 				2F07D2042C78CB6200871D7F /* ClassView.swift in Sources */,
 				2FC6BE4F2B92EEDD00666A83 /* Login.swift in Sources */,
@@ -990,7 +998,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.5;
+				MARKETING_VERSION = 2.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fitkids.CoachCornerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1026,7 +1034,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.5;
+				MARKETING_VERSION = 2.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fitkids.CoachCornerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

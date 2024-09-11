@@ -41,9 +41,9 @@ struct FitKids_CCApp: App {
                 .accentColor(.white)
                 .preferredColorScheme(.light)
             } else {
-                LoginView()
+                WebKitView()
                     .preferredColorScheme(.light)
-                    .background(Color.blue.opacity(0.8))
+                    // .background(Color.blue.opacity(0.8))
                     .edgesIgnoringSafeArea(.all)
             }
         }

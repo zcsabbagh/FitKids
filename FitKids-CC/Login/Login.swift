@@ -59,7 +59,8 @@ struct LoginView: View {
             Button(action: {
                 print("Login button tapped")
                 isLoggingIn = true
-                logIn(username: username, password: password)
+//                logIn2(username: username, password: password)
+                 logIn3(username: username, password: password)
             }) {
                 Text("Log In")
                     .foregroundColor(.white)
@@ -106,8 +107,10 @@ struct LoginView: View {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        print("Username: ", username)
+        print("Password: ", password)
         
-        let parameters = "username=\(username)&password=\(password.addingPercentEncoding(withAllowedCharacters: .alphanumerics) ?? "")"
+        let parameters = "username==\(username)&password=\(password.addingPercentEncoding(withAllowedCharacters: .alphanumerics) ?? "")"
         request.httpBody = parameters.data(using: .utf8)
         
         URLSession.shared.dataTask(with: request) { data, response, error in
@@ -143,4 +146,67 @@ struct LoginView: View {
             }
         }.resume()
     }
+
+    func logIn3(username: String, password: String) {
+    let urlString = "https://fitkids.org/wp-json/wp/v2/posts"
+    guard let url = URL(string: urlString) else {
+        print("Invalid URL")
+        return
+    }
+    
+    var request = URLRequest(url: url)
+    request.httpMethod = "GET"
+    
+    let loginString = "\(username):\(password)"
+    guard let loginData = loginString.data(using: .utf8) else {
+        print("Login encoding failed")
+        return
+    }
+    let base64LoginString = loginData.base64EncodedString()
+    request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
+    
+    // Print the request headers for debugging
+    print("Request headers: \(request.allHTTPHeaderFields ?? [:])")
+    
+    URLSession.shared.dataTask(with: request) { data, response, error in
+        DispatchQueue.main.async {
+            self.isLoggingIn = false
+            
+            if let error = error {
+                print("Error: \(error.localizedDescription)")
+                self.showError = true
+                return
+            }
+            
+            // Print the raw response
+            if let httpResponse = response as? HTTPURLResponse {
+                print("Response status code: \(httpResponse.statusCode)")
+                print("Response headers: \(httpResponse.allHeaderFields)")
+            }
+            
+            if let data = data {
+                print("Raw response data: \(String(data: data, encoding: .utf8) ?? "Unable to convert data to string")")
+                
+                if let json = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+                    print("Parsed JSON response: \(json)")
+                    
+                    if let status = json["status"] as? String, status != "error" {
+                        print("Login successful")
+                        self.isLoggedIn = true
+                    } else {
+                        print("Login failed: \(json["error_description"] as? String ?? "Unknown error")")
+                        self.showError = true
+                    }
+                } else {
+                    print("Failed to parse JSON")
+                    self.showError = true
+                }
+            } else {
+                print("No data received")
+                self.showError = true
+            }
+        }
+    }.resume()
+}
+
 }
